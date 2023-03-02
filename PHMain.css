@@ -1,0 +1,29 @@
+.content{
+	background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+	font-family: cursive;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	max-width: 800px;
+	width:100%;
+	height: 400px;
+	text-align: center;
+	color: #fff;
+	left: 250px;
+	border-radius: 25px;
+	top: 350px;
+	padding: 25px;
+}
+.content h1{
+	font-size: 60px;
+	margin-top: 80px;
+	font-family: cursive;
+}
+.content p{
+	font-weight: 100;
+	margin: 20px auto;
+	line-height: 25px;
+	font-size: 20px;
+	text-shadow: red;
+	font-family: cursive;
+}

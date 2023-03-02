@@ -1,0 +1,71 @@
+.form{
+	display: flex;
+	flex-wrap: wrap;
+	background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+	font-family: cursive;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	max-width: 900px;
+	width:100%;
+	height: 500px;
+	text-align: center;
+	color: #fff;
+	left: 210px;
+	border-radius: 25px;
+	top: 370px;
+	padding: 25px;
+	align-items: center;
+	justify-content: center;
+}
+.form h2{
+	width: 540px;
+	font-family: cursive;
+	text-align: center;
+	color: #25CCF7;
+	font-size: 22px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 1px;
+	padding: 4px;
+}
+.form .user-details{
+	width: 100%;
+	justify-content: space-between;
+	align-items: space-between;
+	padding-left: 30px
+}
+.form .user-details label{
+	font-family: cursive;
+}
+.form .user-details input{
+	font-family: cursive;
+	width:calc(100% / 2 - 20px);
+	height: 35px;
+	background: transparent;
+	border-bottom: 1px solid #25CCF7;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 8px;
+	align-items: space-around;
+}
+.form .gender-details{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin: 14px 0;
+	justify-content: space-between;
+	padding-left: 30px;
+}
+.form .gender-details label{
+	font-family: cursive;
+}
+.form .gender-details input{
+	font-family: cursive;
+	display: flex;
+	flex-wrap: wrap;
+}

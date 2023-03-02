@@ -1,0 +1,35 @@
+.content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 900px;
+  width:100%;
+  height: 500px;
+  left: 210px;
+  border-radius: 25px;
+  top: 390px;
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.content > div {
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%);
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 25px;
+  text-align: center;
+  z-index: -1;
+}
+.logo1{
+	height: 200px;
+	width: 200px;
+	cursor: pointer;
+}
+
+
+
+
