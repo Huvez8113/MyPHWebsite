@@ -14,7 +14,7 @@
 	top: 350px;
 	padding: 25px;
 	display: none;
-	z-index: -1;
+/* 	z-index: -1; */
 }
 .content h1{
 	font-size: 60px;
