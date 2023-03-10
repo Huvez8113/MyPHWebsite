@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PH</title>
+	<style type="text/css">
+		#radio{
+			border-color: transparent;
+			accent-color: #25CCF7;
+		}
+	</style>
+	 <link rel="stylesheet" type="text/css" href="PHNav.css">
+    <link rel="stylesheet" type="text/css" href="PHbtn.css">
+	<link rel="stylesheet" type="text/css" href="PH3.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+		<img src="C:\Users\H.A.M\Desktop\Website Project\Images\Logo.png" class="logo">
+		<ul>
+			<li><a href="PHMain.html"><strong>Home</strong></a></li>
+			<li><a href="PH5.html"><strong>Courses</strong></a></li>
+			<li><a href="PH6.html"><strong>About Us</strong></a></li>
+			<li><a href="PH7.html"><strong>Contact</strong></a></li>
+			<li><a href="PH3.html"><strong>Register</strong></a></li>
+			<li><a href="PH2.html"><strong>Login</strong></a></li>
+		</ul>
+	</nav>
+	<div class="form">
+
+		<h2>Registration Form</h2>
+		<form action="PH4.html" >
+			<div class="user-details">
+			<label>First Name :</label><input type="text" placeholder="First Name" id="fname" required><br>
+			<label>Last Name :</label><input type="text" placeholder="Last  Name" id="lname" required><br>
+			<label>Mobile Number :</label><input type="tel" placeholder="Mobile Number" pattern="[0-9]{10}" id="num" required><br>
+			<label>UserName :</label><input type="email" placeholder="UserName" id="uname" required><br>
+			<label>Password :</label><input type="password" placeholder="Password" id="pass" required><br>
+			<label>Confirm Password :</label><input type="password" placeholder="Confirm Password" id="cpass" required><br>
+			</div><br><br>
+			<div class="gender-details">
+			<label >Gender :</label> 
+			<label>Male</label><input type="radio"  id="radio" name="gender" id="gen" required>
+			<label>Female</label><input type="radio" id="radio" name="gender" id="gen" required>
+			<label>Prefer Not to Say</label><input type="radio" id="radio"name="gender" id="gen" required>
+			</div>
+			<button class="button" ><label>Submit<span></span></label></button>
+           <button class="button" onclick="reset"><a href="PH3.html"><span></span>Reset</a></button>
+		</form>
+	</div>
+	
+</body>
+</html>
